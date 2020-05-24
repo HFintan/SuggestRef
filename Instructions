@@ -1,0 +1,30 @@
+
+GIT
+#######################################################
+git init
+git add *
+git commit -m " "
+git push origin master
+
+#######################################################
+
+PYTHON
+#######################################################
+Run
+python suggest_ref.py
+#######################################################
+
+
+MYSQL
+########################################################
+Import database into mysql:
+(You must log in and create the database first, then 
+log out and import...)
+mysql -u root -p
+CREATE new_database suggest_ref;
+exit
+mysql -u username -p new_database < backupname.sql 
+
+Back up mysql:
+mysql -u username -p database_to_backup > backupname.sql
+########################################################
